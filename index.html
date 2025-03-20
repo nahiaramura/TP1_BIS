@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cambio-color">
+        <img onclick="cambiarModoOscuro()" class="img" src="img/modoOscuro.png" alt="Clickable Image">
+        <img onclick="cambiarModoOscuro()" class="img" src="img/modoClaro.png" alt="Clickable Image">
+</div>
+<div class="container registro">
+
+<form method="post" id="FormNotas">
+
+<h1>Ingresar notas</h1>
+<div class="form-group margin">
+    <label for="nombre">Ingrese su nota de matematica:</label>
+    <input type="text" class="form-control" id="matematica" name="matematica" placeholder="Introducir nota" minlength="3" maxlength="100" onkeyup="validacion('matematica')">
+</div>
+<div class="form-group margin">
+    <label for="mail">Ingrese su nota de lengua:</label>
+    <input type="text" class="form-control" id="lengua" name="lengua" placeholder="Introducir nota"> 
+</div>
+<div class="form-group margin">
+    <label for="contraseña">Ingrese su nota de EFSI:</label>
+    <input type="text" class="form-control" id="efsi" name="efsi" placeholder="Introducir nota" minlength="8" maxlength="100">
+</div>
+
+<div class="button-container">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</div>
+
+<div id="mostrarDatos">
+
+</div>
+<div>
+    <button type="submit" onsubmit="return calcularPromedio()"> Promedio </button>
+    <button type="submit" onsubmit="return mostrarMateriaMayorNota()"> </button>
+</div>
+</form>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
