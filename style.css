@@ -1,0 +1,157 @@
+@font-face {
+
+    font-family: 'Coolvetica';
+    src: url('../fuentes/Coolvetica.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Retro';
+    src: url('../fuentes/Retro.ttf') format('opentype');
+
+}
+
+
+body{
+   background-color: #eebed6!important;
+}
+h1{
+    font-family: 'Retro', sans-serif !important;
+    font-size:300%  !important;
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+}
+.form-control.valid {
+    border: 2px solid green;
+}
+.form-control.invalid {
+    border: 2px solid red;
+}
+
+.resultado1-verde {
+    color: green;
+    font-weight: bold;
+}
+.resultado-rojo {
+    color: red;
+    font-weight: bold;
+}
+
+.resultado-azul {
+    color: blue;
+    font-weight: bold;
+}
+
+.bg-primary {
+    background-color: #ff66b2 !important;
+}
+
+.bg-secondary {
+    background-color: #ff99cc !important;
+}
+
+.btn-primary {
+    background-color: #ff66b2;
+    border-color: #ff66b2;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #ff3385;
+    border-color: #ff3385;
+}
+
+.btn-success {
+    background-color: #ff99cc;
+    border-color: #ff99cc;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #ff66b2;
+    border-color: #ff66b2;
+}
+
+
+.form-control {
+    border-color: #ff66b2;
+    box-shadow: 0 0 10px rgba(255, 102, 178, 0.2);
+}
+
+.form-group label {
+    color: #ff66b2;
+    font-family: 'Coolvetica', sans-serif !important;
+    font-size: 120%;
+}
+
+h1 {
+    color: #ff3385;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.875rem;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.cambio-color {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cambio-color img {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.registro {
+    background-color: #fff0f5;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+.d-flex {
+    justify-content: center;
+}
+
+
+.cambio-color img:hover {
+    opacity: 0.8;
+}
+
+
+.error-text{
+    font-size: 100% !important;
+    font-family: 'Coolvetica' !important;
+}
+
+.btn-primary{
+    background-color: #6f2a97 !important; 
+    border:none !important;
+}
+
+.btn-success{
+
+        background-color: #da2b91 !important; 
+        border:none !important;
+}
